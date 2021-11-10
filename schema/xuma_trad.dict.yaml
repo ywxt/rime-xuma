@@ -452,7 +452,8 @@ encoder:
 啊	ob
 另	oc
 呢	od
-數	oe
+# 數	oe
+嗎	oe
 呀	of
 嚴	og
 嘆	oh
@@ -4773,7 +4774,8 @@ encoder:
 躃	ody
 嗉	oea
 郢	oeb
-遱	oec
+# 遱	oec
+數	oec
 叮	oed
 哺	oef
 噴	oeh
