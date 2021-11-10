@@ -449,7 +449,8 @@ encoder:
 鬧	ny
 闊	nz
 叫	oa
-啊	ob
+# 啊	ob
+跟	ob
 另	oc
 呢	od
 # 數	oe
@@ -7992,7 +7993,13 @@ encoder:
 戽	zze
 泳	zzo
 
+
+# 特殊碼
+啊	o
+們	t
+
 # 置換碼
+
 幺	ayay
 糾	aauy
 厶	aig
