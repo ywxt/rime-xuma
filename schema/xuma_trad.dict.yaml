@@ -32,6 +32,7 @@ encoder:
     - length_in_range: [4, 10]
       formula: "AaBaCaZa"
 ...
+
 能	a
 了	b
 以	c
@@ -1531,6 +1532,7 @@ encoder:
 繮	aik
 練	ain
 綀	aio
+牀	aiv
 絿	aix
 紶	aja
 繧	aje
