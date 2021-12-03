@@ -118,7 +118,8 @@ encoder:
 丞	bd
 也	be
 那	bf
-隔	bg
+# 隔	bg
+司	gb
 隨	bh
 乙	bi
 書	bj
@@ -1752,7 +1753,7 @@ encoder:
 阮	bgg
 陌	bgk
 陙	bgn
-司	bgo
+# 司	bgo
 刁	bgu
 阢	bgw
 隔	bgx
@@ -8014,9 +8015,9 @@ encoder:
 厶	aig
 发	afa
 马	amy
-予	byo
 飛	bfb
-艮	bgov
+艮	bgo
+予	byo
 习	ciw
 尸	dvb
 巳	dsz
