@@ -589,7 +589,8 @@ encoder:
 何	te
 代	tf
 使	tg
-備	th
+# 備	th
+僅	th
 集	ti
 做	tj
 但	tk
@@ -6086,6 +6087,7 @@ encoder:
 借	thk
 希	thm
 佑	tho
+備	thp
 欷	thq
 憊	ths
 供	tht
