@@ -23,6 +23,7 @@ __patch:
   - xuma_qshare.custom:/patch?
   - xuma_trad.custom:/patch?
   - symbols:/patch?
+  - xuma.symbols:/patch?
 
 switches:
   - options: [ gb2312, gbk, big5, utf8 ]
