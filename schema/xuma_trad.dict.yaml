@@ -354,7 +354,8 @@ encoder:
 量	kg
 最	kh
 果	ki
-甲	kj
+# 甲	kj
+時	kj
 暢	kk
 曥	kl
 映	km
@@ -3959,7 +3960,7 @@ encoder:
 杲	kiv
 昧	kiw
 曇	kje
-時	kji
+# 時	kji
 曉	kjj
 暑	kjk
 盢	kjm
@@ -8037,8 +8038,9 @@ encoder:
 犬	jqqc
 尤	jor
 爾	jen
-申	ksv
 电	kdos
+甲	kji
+申	ksv
 禺	kyc
 虫	lviz
 攴	lpf
