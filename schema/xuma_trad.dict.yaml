@@ -56,7 +56,8 @@ encoder:
 的	u
 爲	v
 裏	w
-次	x
+# 次	x
+道	x
 這	y
 沒	z
 出來	a
@@ -703,10 +704,12 @@ encoder:
 粗	xn
 燥	xo
 炸	xp
-鄰	xq
+# 鄰	xq
+次	xq
 遂	xr
 前	xs
-道	xt
+# 道	xt
+准	xt
 冷	xu
 火	xv
 為	xw
