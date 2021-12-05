@@ -462,7 +462,8 @@ encoder:
 呀	of
 嚴	og
 嘆	oh
-味	oi
+# 味	oi
+喫	oi
 號	oj
 單	ok
 雖	ol
@@ -3556,7 +3557,8 @@ encoder:
 椎	itw
 櫟	iua
 柏	iub
-麨	iuc
+# 麨	iuc
+麪	iuc
 栓	iue
 槔	iuf
 槐	iug
@@ -4855,7 +4857,7 @@ encoder:
 喇	oio
 嘜	oiu
 呆	oiv
-跊	oiw
+# 跊	oiw
 嗑	oja
 哮	ojb
 呋	ojf
