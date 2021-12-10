@@ -6046,7 +6046,8 @@ encoder:
 倨	tdj
 盆	tdm
 貧	tdn
-僻	tdo
+# 僻	tdo
+隻	tdo
 侯	tdp
 忿	tdr
 俑	tds
@@ -8084,6 +8085,7 @@ encoder:
 乌	swe
 鸟	snq
 鼻	tbs
+仅	tdow
 隹	twz
 乂	tivw
 川	tcw
