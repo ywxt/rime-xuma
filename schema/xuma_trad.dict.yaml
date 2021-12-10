@@ -46,7 +46,8 @@ encoder:
 是	k
 上	l
 還	m
-問	n
+# 問	n
+當	n
 中	o
 我	p
 多	q
@@ -107,7 +108,8 @@ encoder:
 水	as
 維	at
 給	au
-紙	av
+# 紙	av
+允	av
 及	aw
 絆	ax
 統	ay
@@ -194,7 +196,8 @@ encoder:
 素	ea
 妻	eb
 協	ec
-丁	ed
+# 丁	ed
+支	ed
 二	ee
 載	ef
 干	eg
@@ -300,7 +303,7 @@ encoder:
 寸	ic
 契	id
 標	ie
-隸	if
+丰	if
 工	ig
 橫	ih
 材	ii
@@ -489,7 +492,7 @@ encoder:
 看	pf
 短	pg
 無	ph
-# 笨	pi
+矢	pi
 等	pj
 竹	pk
 怎	pl
@@ -1701,7 +1704,7 @@ encoder:
 繸	axr
 縊	axt
 繒	axx
-絃	aya
+# 絃	aya
 縼	ayb
 織	ayf
 絯	ayh
@@ -1869,7 +1872,7 @@ encoder:
 姆	ccm
 妙	ccp
 勰	ccr
-脅	ccs
+# 脅	ccs
 姒	ccw
 孥	cdb
 努	cdc
@@ -3417,6 +3420,7 @@ encoder:
 枉	iev
 楠	iex
 棖	iez
+隸	ifb
 耟	ifd
 椅	ife
 棧	iff
@@ -4618,7 +4622,8 @@ encoder:
 圓	non
 圖	noo
 睊	nos
-咼	nov
+# 咼	nov
+問	nov
 過	noz
 盵	npb
 睋	npf
@@ -4630,7 +4635,8 @@ encoder:
 賝	nqi
 賱	nqj
 矎	nqn
-當	nqo
+# 當	nqo
+常	nqo
 眵	nqq
 骰	nqs
 瞻	nqt
@@ -6727,7 +6733,7 @@ encoder:
 銘	vqo
 獬	vqp
 欽	vqq
-愛	vqr
+# 愛	vqr
 鈠	vqs
 餡	vqu
 鑱	vqv
@@ -8015,21 +8021,24 @@ encoder:
 
 # 置換碼
 
-幺	ayay
 糾	aauy
-厶	aig
 发	afa
+厶	aig
 马	amy
+幺	aya
+糸	aved
 飛	bfb
 艮	bgo
 予	byo
+巛	ccs
 习	ciw
 尸	dvb
 巳	dsz
 髟	ebc
-酉	eye
+丁	edo
 甫	efj
 馬	emu
+酉	eye
 牙	fyc
 车	fcub
 臣	fed
@@ -8045,7 +8054,6 @@ encoder:
 丌	hjkt
 瓦	hwc
 耒	ilx
-丰	ifb
 犬	jqqc
 尤	jor
 爾	jen
@@ -8059,6 +8067,7 @@ encoder:
 齒	lcd
 皿	mmn
 貝	nbg
+咼	novm
 〇	olt	
 气	pqqf
 缶	pfn
@@ -8091,4 +8100,3 @@ encoder:
 亥	yhm
 户	zhvr
 门	zmz
-
