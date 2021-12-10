@@ -3916,7 +3916,8 @@ encoder:
 較	jyt
 坊	jyu
 境	jyv
-雯	jyw
+# 雯	jyw
+坟	jyw
 辜	jyx
 霐	jza
 軶	jzb
@@ -6777,7 +6778,8 @@ encoder:
 鈋	vtv
 錐	vtw
 鑠	vua
-鉑	vub
+# 鉑	vub
+皆	vub
 餿	vud
 銓	vue
 餽	vug
@@ -8081,8 +8083,9 @@ encoder:
 臼	ujq
 烏	uwb
 僉	uqd
-匕	vis
 儿	vezq
+匕	vis
+鉑	vubb
 广	wgs
 鹿	wlo
 亥	yhm
