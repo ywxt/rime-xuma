@@ -57,7 +57,7 @@ switches:
     states: [ 懒钟下班, ㍡开工 ]
   - name: emoji_suggestion
     reset: 0
-    states: [ "🈚️", "🈶️️" ]
+    states: [ "🈚️", "🈶" ]
 
 engine:
   processors:
