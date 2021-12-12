@@ -55,6 +55,9 @@ switches:
     states: [ 词组派, 单字派 ]
   - name: lazy_clock
     states: [ 懒钟下班, ㍡开工 ]
+  - name: emoji_suggestion
+    reset: 1
+    states: [ "🈚️", "🈶️️" ]
 
 engine:
   processors:
@@ -102,6 +105,7 @@ engine:
     # - lua_filter@xuma_single_char
     - lua_filter@xuma_postpone_fullcode
     - lua_filter@lazy_clock
+    - simplifier@emoji_suggestion
     - uniquifier
     # - lua_filter@debug_filter
 
@@ -132,6 +136,11 @@ traditionalize:
   comment_format:
     - xform/^/（/
     - xform/$/）/
+
+emoji_suggestion:
+  opencc_config: emoji.json
+  option_name: emoji_suggestion
+  tips: all
 
 lua_reverse_db:
   spelling: xuma_spelling_pseudo
@@ -247,6 +256,7 @@ key_bindings:
     - { when: always, accept: "Control+Shift+F", toggle: traditionalization }
     - { when: composing, accept: "Control+s", toggle: single_char_only }
     - { when: composing, accept: "Control+t", toggle: lazy_clock }
+    - { when: composing, accept: "Control+e", toggle: emoji_suggestion }
     - { when: has_menu, accept: semicolon, send: 2 }  # 分号次选
     - { when: has_menu, accept: apostrophe, send: 3 }  # 引号三选
 
