@@ -3,16 +3,16 @@
 
 schema:
   schema_id: xuma_trad
-  name: 徐码·繁
+  name: 徐碼·繁
   version: "2021-03-26"
   author:
     - 發明人 徐国银先生
     - rime schema by Q
   description: |
-    徐码简繁通打
+    徐碼簡繁通打
     chinput.com/xuma
 
-    三重注解、双重反查、屏蔽词组、全码后置、简入繁出...
+    三重注解、雙重反查、屏蔽詞組、全碼後置、簡入繁出...
     https://ace-who.github.io/rime-xuma/
   dependencies:
     - xuma_spelling_pseudo
@@ -50,11 +50,11 @@ switches:
     reset: 3
   - name: xuma_postpone_fullcode  # 仅作用于单字。
     reset: 1
-    states: [ ＝原始排序, ↓全码后置 ]
+    states: [ ＝原始排序, ↓全碼後置 ]
   - name: single_char_only
-    states: [ 词组派, 单字派 ]
+    states: [ 詞組派, 單字派 ]
   - name: lazy_clock
-    states: [ 懒钟下班, ㍡开工 ]
+    states: [ 懶鐘下班, ㍡開工 ]
   - name: emoji_suggestion
     reset: 0
     states: [ "🈚️", "🈶" ]
@@ -211,8 +211,8 @@ reverse_lookup:
   tag: reverse_lookup
   prefix: "`"    # 反查引导符「`」
   # suffix:   # 反查关闭符，暂不定义
-  tips: 【反查：拼音+笔画】
-  closing_tips: 【反查关闭】
+  tips: 【反查：拼音+筆畫】
+  closing_tips: 【反查關閉】
     # preedit_format:
   # - xform/([nljqxy])v/$1ü/
   extra_tags:
@@ -224,15 +224,15 @@ luna_pinyin_lookup:
   dictionary: luna_pinyin
   prefix: '`P'
   tips: 【朙月拼音反查】
-  closing_tips: 【反查关闭】
+  closing_tips: 【反查關閉】
   initial_quality: 0.2
 
 stroke_lookup:
   tag: stroke_lookup
   dictionary: stroke
   prefix: '`B'
-  tips: 【五笔画反查】
-  closing_tips: 【反查关闭】
+  tips: 【五筆劃反查】
+  closing_tips: 【反查關閉】
   initial_quality: 0.5
   preedit_format:
     - 'xform/^([hspnz]+)$/$1\t（\U$1\E）/'
