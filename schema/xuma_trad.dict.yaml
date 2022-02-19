@@ -10,7 +10,6 @@ use_preset_vocabulary: false
 columns:
   - text
   - code
-  - weight
   - stem
 import_tables:
   - xuma_cjk
@@ -46,7 +45,6 @@ encoder:
 是	k
 上	l
 還	m
-# 問	n
 當	n
 中	o
 我	p
@@ -57,36 +55,35 @@ encoder:
 的	u
 爲	v
 裏	w
-# 次	x
 道	x
 這	y
 沒	z
-出來	a
-那麼	b
-以爲	c
-發現	d
-可能	e
-大家	f
-一個	g
-有點	h
-來說	i
-地方	j
-是否	k
-對於	l
-還是	m
-因爲	n
-中間	o
-我們	p
-多少	q
-所以	r
-很好	s
-什麼	t
-今天	u
-比如	v
-實際	w
-道理	x
-這個	y
-沒有	z
+# 出來	a
+# 那麼	b
+# 以爲	c
+# 發現	d
+# 可能	e
+# 大家	f
+# 一個	g
+# 有點	h
+# 來說	i
+# 地方	j
+# 是否	k
+# 對於	l
+# 還是	m
+# 因爲	n
+# 中間	o
+# 我們	p
+# 多少	q
+# 所以	r
+# 很好	s
+# 什麼	t
+# 今天	u
+# 比如	v
+# 實際	w
+# 道理	x
+# 這個	y
+# 沒有	z
 出	aa
 幻	ab
 綠	ac
@@ -340,8 +337,8 @@ encoder:
 赴	jl
 賣	jm
 規	jn
-遠	jo
-故	jp
+露	jo
+攷	jp
 軟	jq
 志	jr
 均	js
@@ -607,6 +604,7 @@ encoder:
 佔	tl
 仙	tm
 個	tn
+們	tn
 保	to
 作	tp
 你	tq
@@ -778,683 +776,685 @@ encoder:
 淡	zx
 流	zy
 之	zz
-繼續	aa
-給予	ab
-參加	ac
-收費	ad
-經理	ae
-維持	af
-網頁	ag
-及其	ah
-幻想	ai
-出去	aj
-纔是	ak
-網上	al
-裝置	am
-收購	an
-出口	ao
-幾乎	ap
-出色	aq
-出租	ar
-紀律	as
-收集	at
-參與	au
-收入	av
-出席	aw
-經營	ax
-維護	ay
-經濟	az
-即將	ba
-孩子	bb
-子女	bc
-隔壁	bd
-即可	be
-尋找	bf
-了不起	bg
-隱藏	bh
-那樣	bi
-退款	bj
-也是	bk
-那些	bl
-退還	bm
-陽光	bn
-隊員	bo
-限制	bp
-除外	bq
-附近	br
-既然	bs
-即使	bt
-那兒	bu
-陷入	bv
-限定	bw
-飛翔	bx
-也許	by
-預測	bz
-以及	ca
-小孩	cb
-努力	cc
-加強	cd
-駕駛	ce
-加大	cf
-小型	cg
-如期	ch
-以來	ci
-以下	cj
-如果	ck
-如此	cl
-如同	cm
-媒體	cn
-好吧	co
-好看	cp
-姓名	cq
-小心	cr
-以後	cs
-好像	ct
-女人	cu
-加入	cv
-力度	cw
-以前	cx
-母親	cy
-加深	cz
-已經	da
-勇敢	db
-譬如	dc
-發展	dd
-巴西	de
-發揮	df
-遲到	dg
-改革	dh
-尺寸	di
-引起	dj
-發明	dk
-皮膚	dl
-弱點	dm
-通過	dn
-尾號	do
-發生	dp
-避免	dq
-違反	dr
-居然	ds
-通俗	dt
-選舉	du
-引入	dv
-民主	dw
-改善	dx
-改變	dy
-違法	dz
-晉級	ea
-妻子	eb
-可以	ec
-截屏	ed
-表現	ee
-表示	ef
-真正	eg
-現在	eh
-互相	ei
-環境	ej
-可是	ek
-馬上	el
-歌曲	em
-截圖	en
-十足	eo
-青年	ep
-理解	eq
-素質	er
-乾脆	es
-責任	et
-表情	eu
-可愛	ev
-幹什麼	ew
-再次	ex
-要讓	ey
-亞洲	ez
-提出	fa
-醫院	fb
-大小	fc
-緊張	fd
-指南	fe
-堅持	ff
-感到	fg
-擁有	fh
-成功	fi
-或者	fj
-按照	fk
-套餐	fl
-感冒	fm
-援助	fn
-成員	fo
-控制	fp
-接觸	fq
-擔心	fr
-技術	fs
-提供	ft
-感覺	fu
-接受	fv
-指定	fw
-投資	fx
-提高	fy
-歐洲	fz
-不能	ga
-不敢	gb
-不如	gc
-而已	gd
-不要	ge
-一切	gf
-正確	gg
-正在	gh
-一樣	gi
-一下	gj
-不是	gk
-一些	gl
-不同	gm
-而且	gn
-歷史	go
-不管	gp
-不久	gq
-一般	gr
-而後	gs
-不像	gt
-一會兒	gu
-不錯	gv
-確實	gw
-面前	gx
-願意	gy
-政治	gz
-取出	ha
-有限	hb
-難以	hc
-基層	hd
-若干	he
-聊天	hf
-甚至	hg
-存在	hh
-基本	hi
-有趣	hj
-世界	hk
-有些	hl
-觀點	hm
-其間	hn
-其中	ho
-有無	hp
-著名	hq
-灰心	hr
-取得	hs
-其他	ht
-聯合	hu
-歡迎	hv
-其實	hw
-難道	hx
-有效	hy
-取消	hz
-功能	ia
-樣子	ib
-權力	ic
-本屆	id
-東西	ie
-根據	if
-想到	ig
-極其	ih
-根本	ii
-事故	ij
-查明	ik
-相對於	il
-相同	im
-項目	in
-機器	io
-機制	ip
-想象	iq
-相反	ir
-來得及	is
-工作	it
-事情	iu
-相比	iv
-事實	iw
-材料	ix
-概率	iy
-標準	iz
-超級	ja
-封建	jb
-增加	jc
-軟弱	jd
-需要	je
-地區	jf
-下面	jg
-尤其	jh
-起來	ji
-地址	jj
-都是	jk
-考慮	jl
-地點	jm
-地圖	jn
-趣味	jo
-規範	jp
-埋怨	jq
-教程	jr
-規律	js
-軟件	jt
-教師	ju
-地鐵	jv
-規定	jw
-報道	jx
-聲音	jy
-臺灣	jz
-顯出	ka
-日子	kb
-最好	kc
-早已	kd
-思索	ke
-明天	kf
-遇到	kg
-時期	kh
-思想	ki
-思考	kj
-明顯	kk
-晚上	kl
-日內	km
-遇見	kn
-是嗎	ko
-明智	kp
-景象	kq
-最近	kr
-最後	ks
-時候	kt
-明白	ku
-早飯	kv
-晚安	kw
-日前	kx
-由於	ky
-照顧	kz
-上級	la
-桌子	lb
-處以	lc
-卡通	ld
-步驟	le
-虛擬	lf
-上面	lg
-悲觀	lh
-上來	li
-上去	lj
-此時	lk
-對此	ll
-處罰	lm
-非常	ln
-對呀	lo
-上午	lp
-此外	lq
-對手	lr
-此後	ls
-虛假	lt
-悲慘	lu
-對比	lv
-肯定	lw
-上前	lx
-對方	ly
-上海	lz
-剛纔	ma
-幌子	mb
-剛好	mc
-農民	md
-還要	me
-豐盛	mf
-典型	mg
-還有	mh
-剛才	mi
-邏輯	mj
-同時	mk
-同步	ml
-剛剛	mm
-崇尚	mn
-罰單	mo
-崇拜	mp
-黑色	mq
-內心	mr
-同行	ms
-崗位	mt
-同情	mu
-買入	mv
-內容	mw
-同類	mx
-同意	my
-內涵	mz
-回收	na
-國際	nb
-開始	nc
-開發	nd
-因素	ne
-掌握	nf
-見到	ng
-困難	nh
-回來	ni
-過去	nj
-當時	nk
-因此	nl
-國內	nm
-眼睛	nn
-閉嘴	no
-回答	np
-瞭解	nq
-關心	nr
-當然	ns
-關係	nt
-回憶	nu
-目錄	nv
-國家	nw
-目前	nx
-國產	ny
-關注	nz
-吸收	oa
-嚴肅	ob
-吵架	oc
-吸引	od
-呈現	oe
-哪天	of
-號碼	og
-只有	oh
-員工	oi
-患者	oj
-中暑	ok
-路上	ol
-中央	om
-中國	on
-哈哈	oo
-中午	op
-另外	oq
-中心	or
-雖然	os
-咱們	ot
-中介	ou
-戰爭	ov
-數字	ow
-兄弟	ox
-距離	oy
-啤酒	oz
-節約	pa
-缺陷	pb
-缺少	pc
-節選	pd
-管理	pe
-造成	pf
-第一	pg
-短期	ph
-看來	pi
-年輕	pj
-生日	pk
-年齡	pl
-特點	pm
-看見	pn
-特別	po
-先生	pp
-特色	pq
-每秒	pr
-先後	ps
-製作	pt
-生命	pu
-午飯	pv
-怎麼	pw
-知道	px
-生產	py
-無法	pz
-外出	qa
-危險	qb
-多好	qc
-免費	qd
-負責	qe
-負擔	qf
-外面	qg
-解散	qh
-風格	qi
-風聲	qj
-凡是	qk
-急劇	ql
-多點	qm
-罕見	qn
-和解	qo
-解釋	qp
-多久	qq
-名稱	qr
-運行	qs
-名牌	qt
-急忙	qu
-色彩	qv
-名字	qw
-外資	qx
-外部	qy
-解決	qz
-稅收	ra
-禿子	rb
-委婉	rc
-移民	rd
-重要	re
-科技	rf
-反而	rg
-所有	rh
-積極	ri
-剩下	rj
-反映	rk
-反對	rl
-重點	rm
-欣賞	rn
-心中	ro
-近年	rp
-和解	rq
-種種	rr
-必須	rs
-手段	rt
-私人	ru
-千兆	rv
-心裏	rw
-利益	rx
-重新	ry
-反派	rz
-得出	sa
-服務	sb
-很好	sc
-脆弱	sd
-股票	se
-包括	sf
-後面	sg
-朋友	sh
-後來	si
-後者	sj
-衡量	sk
-行業	sl
-肌肉	sm
-往常	sn
-用品	so
-微笑	sp
-臉色	sq
-行動	sr
-然後	ss
-腦袋	st
-律師	su
-服飾	sv
-徹底	sw
-街道	sx
-股市	sy
-腦海	sz
-作出	ta
-公司	tb
-例如	tc
-自己	td
-代表	te
-保持	tf
-使勁	tg
-公共	th
-分析	ti
-作者	tj
-但是	tk
-停止	tl
-位置	tm
-自助	tn
-集中	to
-儘管	tp
-作風	tq
-順利	tr
-進行	ts
-任何	tt
-殺人	tu
-進入	tv
-假定	tw
-分類	tx
-希望	ty
-何況	tz
-介紹	ua
-兒子	ub
-學習	uc
-人民	ud
-合理	ue
-今天	uf
-全面	ug
-含有	uh
-快速	ui
-領域	uj
-今日	uk
-企業	ul
-合同	um
-全國	un
-人員	uo
-情節	up
-白色	uq
-性質	ur
-今後	us
-合作	ut
-令人	uu
-懷疑	uv
-人家	uw
-人類	ux
-全部	uy
-情況	uz
-各級	va
-猶豫	vb
-比如	vc
-逃避	vd
-愛戴	ve
-冬天	vf
-受到	vg
-爭取	vh
-猜想	vi
-比較	vj
-貿易	vk
-針對	vl
-犯罪	vm
-各國	vn
-食品	vo
-食物	vp
-印象	vq
-各種	vr
-銀行	vs
-各位	vt
-愛情	vu
-狠狠	vv
-比賽	vw
-飲料	vx
-留言	vy
-爲準	vz
-主編	wa
-實際	wb
-良好	wc
-安慰	wd
-實現	we
-完成	wf
-密碼	wg
-實在	wh
-完整	wi
-廣場	wj
-# 容易	wk
-衹是	wk
-初步	wl
-室內	wm
-寶貝	wn
-實踐	wo
-客氣	wp
-主角	wq
-客戶	wr
-應用	ws
-宣傳	wt
-社會	wu
-瘋狂	wv
-客廳	ww
-定義	wx
-官方	wy
-廣泛	wz
-曾經	xa
-義務	xb
-美好	xc
-普通	xd
-煎熬	xe
-前提	xf
-精確	xg
-尊敬	xh
-資格	xi
-首都	xj
-背景	xk
-並非	xl
-判罰	xm
-並且	xn
-道路	xo
-首先	xp
-前夕	xq
-勞動	xr
-前往	xs
-類似	xt
-道人	xu
-資金	xv
-精神	xw
-資料	xx
-北京	xy
-資源	xz
-放出	ya
-立即	yb
-音響	yc
-交通	yd
-文靜	ye
-方式	yf
-方面	yg
-文藝	yh
-這樣	yi
-市場	yj
-就是	yk
-這些	yl
-註冊	ym
-離開	yn
-產品	yo
-計算	yp
-許多	yq
-這種	yr
-竟然	ys
-部分	yt
-敵人	yu
-競爭	yv
-這麼	yw
-意義	yx
-立刻	yy
-方法	yz
-涉及	za
-扇子	zb
-減少	zc
-消費	zd
-測驗	ze
-瀏覽	zf
-之一	zg
-沒有	zh
-清楚	zi
-永遠	zj
-深思	zk
-演戲	zl
-沉默	zm
-之間	zn
-滿足	zo
-決策	zp
-海外	zq
-活動	zr
-之後	zs
-盜版	zt
-深情	zu
-深入	zv
-決定	zw
-之前	zx
-注意	zy
-沉沒	zz
+
+# 二簡詞
+# 繼續	aa
+# 給予	ab
+# 參加	ac
+# 收費	ad
+# 經理	ae
+# 維持	af
+# 網頁	ag
+# 及其	ah
+# 幻想	ai
+# 出去	aj
+# 纔是	ak
+# 網上	al
+# 裝置	am
+# 收購	an
+# 出口	ao
+# 幾乎	ap
+# 出色	aq
+# 出租	ar
+# 紀律	as
+# 收集	at
+# 參與	au
+# 收入	av
+# 出席	aw
+# 經營	ax
+# 維護	ay
+# 經濟	az
+# 即將	ba
+# 孩子	bb
+# 子女	bc
+# 隔壁	bd
+# 即可	be
+# 尋找	bf
+# 了不起	bg
+# 隱藏	bh
+# 那樣	bi
+# 退款	bj
+# 也是	bk
+# 那些	bl
+# 退還	bm
+# 陽光	bn
+# 隊員	bo
+# 限制	bp
+# 除外	bq
+# 附近	br
+# 既然	bs
+# 即使	bt
+# 那兒	bu
+# 陷入	bv
+# 限定	bw
+# 飛翔	bx
+# 也許	by
+# 預測	bz
+# 以及	ca
+# 小孩	cb
+# 努力	cc
+# 加強	cd
+# 駕駛	ce
+# 加大	cf
+# 小型	cg
+# 如期	ch
+# 以來	ci
+# 以下	cj
+# 如果	ck
+# 如此	cl
+# 如同	cm
+# 媒體	cn
+# 好吧	co
+# 好看	cp
+# 姓名	cq
+# 小心	cr
+# 以後	cs
+# 好像	ct
+# 女人	cu
+# 加入	cv
+# 力度	cw
+# 以前	cx
+# 母親	cy
+# 加深	cz
+# 已經	da
+# 勇敢	db
+# 譬如	dc
+# 發展	dd
+# 巴西	de
+# 發揮	df
+# 遲到	dg
+# 改革	dh
+# 尺寸	di
+# 引起	dj
+# 發明	dk
+# 皮膚	dl
+# 弱點	dm
+# 通過	dn
+# 尾號	do
+# 發生	dp
+# 避免	dq
+# 違反	dr
+# 居然	ds
+# 通俗	dt
+# 選舉	du
+# 引入	dv
+# 民主	dw
+# 改善	dx
+# 改變	dy
+# 違法	dz
+# 晉級	ea
+# 妻子	eb
+# 可以	ec
+# 截屏	ed
+# 表現	ee
+# 表示	ef
+# 真正	eg
+# 現在	eh
+# 互相	ei
+# 環境	ej
+# 可是	ek
+# 馬上	el
+# 歌曲	em
+# 截圖	en
+# 十足	eo
+# 青年	ep
+# 理解	eq
+# 素質	er
+# 乾脆	es
+# 責任	et
+# 表情	eu
+# 可愛	ev
+# 幹什麼	ew
+# 再次	ex
+# 要讓	ey
+# 亞洲	ez
+# 提出	fa
+# 醫院	fb
+# 大小	fc
+# 緊張	fd
+# 指南	fe
+# 堅持	ff
+# 感到	fg
+# 擁有	fh
+# 成功	fi
+# 或者	fj
+# 按照	fk
+# 套餐	fl
+# 感冒	fm
+# 援助	fn
+# 成員	fo
+# 控制	fp
+# 接觸	fq
+# 擔心	fr
+# 技術	fs
+# 提供	ft
+# 感覺	fu
+# 接受	fv
+# 指定	fw
+# 投資	fx
+# 提高	fy
+# 歐洲	fz
+# 不能	ga
+# 不敢	gb
+# 不如	gc
+# 而已	gd
+# 不要	ge
+# 一切	gf
+# 正確	gg
+# 正在	gh
+# 一樣	gi
+# 一下	gj
+# 不是	gk
+# 一些	gl
+# 不同	gm
+# 而且	gn
+# 歷史	go
+# 不管	gp
+# 不久	gq
+# 一般	gr
+# 而後	gs
+# 不像	gt
+# 一會兒	gu
+# 不錯	gv
+# 確實	gw
+# 面前	gx
+# 願意	gy
+# 政治	gz
+# 取出	ha
+# 有限	hb
+# 難以	hc
+# 基層	hd
+# 若干	he
+# 聊天	hf
+# 甚至	hg
+# 存在	hh
+# 基本	hi
+# 有趣	hj
+# 世界	hk
+# 有些	hl
+# 觀點	hm
+# 其間	hn
+# 其中	ho
+# 有無	hp
+# 著名	hq
+# 灰心	hr
+# 取得	hs
+# 其他	ht
+# 聯合	hu
+# 歡迎	hv
+# 其實	hw
+# 難道	hx
+# 有效	hy
+# 取消	hz
+# 功能	ia
+# 樣子	ib
+# 權力	ic
+# 本屆	id
+# 東西	ie
+# 根據	if
+# 想到	ig
+# 極其	ih
+# 根本	ii
+# 事故	ij
+# 查明	ik
+# 相對於	il
+# 相同	im
+# 項目	in
+# 機器	io
+# 機制	ip
+# 想象	iq
+# 相反	ir
+# 來得及	is
+# 工作	it
+# 事情	iu
+# 相比	iv
+# 事實	iw
+# 材料	ix
+# 概率	iy
+# 標準	iz
+# 超級	ja
+# 封建	jb
+# 增加	jc
+# 軟弱	jd
+# 需要	je
+# 地區	jf
+# 下面	jg
+# 尤其	jh
+# 起來	ji
+# 地址	jj
+# 都是	jk
+# 考慮	jl
+# 地點	jm
+# 地圖	jn
+# 趣味	jo
+# 規範	jp
+# 埋怨	jq
+# 教程	jr
+# 規律	js
+# 軟件	jt
+# 教師	ju
+# 地鐵	jv
+# 規定	jw
+# 報道	jx
+# 聲音	jy
+# 臺灣	jz
+# 顯出	ka
+# 日子	kb
+# 最好	kc
+# 早已	kd
+# 思索	ke
+# 明天	kf
+# 遇到	kg
+# 時期	kh
+# 思想	ki
+# 思考	kj
+# 明顯	kk
+# 晚上	kl
+# 日內	km
+# 遇見	kn
+# 是嗎	ko
+# 明智	kp
+# 景象	kq
+# 最近	kr
+# 最後	ks
+# 時候	kt
+# 明白	ku
+# 早飯	kv
+# 晚安	kw
+# 日前	kx
+# 由於	ky
+# 照顧	kz
+# 上級	la
+# 桌子	lb
+# 處以	lc
+# 卡通	ld
+# 步驟	le
+# 虛擬	lf
+# 上面	lg
+# 悲觀	lh
+# 上來	li
+# 上去	lj
+# 此時	lk
+# 對此	ll
+# 處罰	lm
+# 非常	ln
+# 對呀	lo
+# 上午	lp
+# 此外	lq
+# 對手	lr
+# 此後	ls
+# 虛假	lt
+# 悲慘	lu
+# 對比	lv
+# 肯定	lw
+# 上前	lx
+# 對方	ly
+# 上海	lz
+# 剛纔	ma
+# 幌子	mb
+# 剛好	mc
+# 農民	md
+# 還要	me
+# 豐盛	mf
+# 典型	mg
+# 還有	mh
+# 剛才	mi
+# 邏輯	mj
+# 同時	mk
+# 同步	ml
+# 剛剛	mm
+# 崇尚	mn
+# 罰單	mo
+# 崇拜	mp
+# 黑色	mq
+# 內心	mr
+# 同行	ms
+# 崗位	mt
+# 同情	mu
+# 買入	mv
+# 內容	mw
+# 同類	mx
+# 同意	my
+# 內涵	mz
+# 回收	na
+# 國際	nb
+# 開始	nc
+# 開發	nd
+# 因素	ne
+# 掌握	nf
+# 見到	ng
+# 困難	nh
+# 回來	ni
+# 過去	nj
+# 當時	nk
+# 因此	nl
+# 國內	nm
+# 眼睛	nn
+# 閉嘴	no
+# 回答	np
+# 瞭解	nq
+# 關心	nr
+# 當然	ns
+# 關係	nt
+# 回憶	nu
+# 目錄	nv
+# 國家	nw
+# 目前	nx
+# 國產	ny
+# 關注	nz
+# 吸收	oa
+# 嚴肅	ob
+# 吵架	oc
+# 吸引	od
+# 呈現	oe
+# 哪天	of
+# 號碼	og
+# 只有	oh
+# 員工	oi
+# 患者	oj
+# 中暑	ok
+# 路上	ol
+# 中央	om
+# 中國	on
+# 哈哈	oo
+# 中午	op
+# 另外	oq
+# 中心	or
+# 雖然	os
+# 咱們	ot
+# 中介	ou
+# 戰爭	ov
+# 數字	ow
+# 兄弟	ox
+# 距離	oy
+# 啤酒	oz
+# 節約	pa
+# 缺陷	pb
+# 缺少	pc
+# 節選	pd
+# 管理	pe
+# 造成	pf
+# 第一	pg
+# 短期	ph
+# 看來	pi
+# 年輕	pj
+# 生日	pk
+# 年齡	pl
+# 特點	pm
+# 看見	pn
+# 特別	po
+# 先生	pp
+# 特色	pq
+# 每秒	pr
+# 先後	ps
+# 製作	pt
+# 生命	pu
+# 午飯	pv
+# 怎麼	pw
+# 知道	px
+# 生產	py
+# 無法	pz
+# 外出	qa
+# 危險	qb
+# 多好	qc
+# 免費	qd
+# 負責	qe
+# 負擔	qf
+# 外面	qg
+# 解散	qh
+# 風格	qi
+# 風聲	qj
+# 凡是	qk
+# 急劇	ql
+# 多點	qm
+# 罕見	qn
+# 和解	qo
+# 解釋	qp
+# 多久	qq
+# 名稱	qr
+# 運行	qs
+# 名牌	qt
+# 急忙	qu
+# 色彩	qv
+# 名字	qw
+# 外資	qx
+# 外部	qy
+# 解決	qz
+# 稅收	ra
+# 禿子	rb
+# 委婉	rc
+# 移民	rd
+# 重要	re
+# 科技	rf
+# 反而	rg
+# 所有	rh
+# 積極	ri
+# 剩下	rj
+# 反映	rk
+# 反對	rl
+# 重點	rm
+# 欣賞	rn
+# 心中	ro
+# 近年	rp
+# 和解	rq
+# 種種	rr
+# 必須	rs
+# 手段	rt
+# 私人	ru
+# 千兆	rv
+# 心裏	rw
+# 利益	rx
+# 重新	ry
+# 反派	rz
+# 得出	sa
+# 服務	sb
+# 很好	sc
+# 脆弱	sd
+# 股票	se
+# 包括	sf
+# 後面	sg
+# 朋友	sh
+# 後來	si
+# 後者	sj
+# 衡量	sk
+# 行業	sl
+# 肌肉	sm
+# 往常	sn
+# 用品	so
+# 微笑	sp
+# 臉色	sq
+# 行動	sr
+# 然後	ss
+# 腦袋	st
+# 律師	su
+# 服飾	sv
+# 徹底	sw
+# 街道	sx
+# 股市	sy
+# 腦海	sz
+# 作出	ta
+# 公司	tb
+# 例如	tc
+# 自己	td
+# 代表	te
+# 保持	tf
+# 使勁	tg
+# 公共	th
+# 分析	ti
+# 作者	tj
+# 但是	tk
+# 停止	tl
+# 位置	tm
+# 自助	tn
+# 集中	to
+# 儘管	tp
+# 作風	tq
+# 順利	tr
+# 進行	ts
+# 任何	tt
+# 殺人	tu
+# 進入	tv
+# 假定	tw
+# 分類	tx
+# 希望	ty
+# 何況	tz
+# 介紹	ua
+# 兒子	ub
+# 學習	uc
+# 人民	ud
+# 合理	ue
+# 今天	uf
+# 全面	ug
+# 含有	uh
+# 快速	ui
+# 領域	uj
+# 今日	uk
+# 企業	ul
+# 合同	um
+# 全國	un
+# 人員	uo
+# 情節	up
+# 白色	uq
+# 性質	ur
+# 今後	us
+# 合作	ut
+# 令人	uu
+# 懷疑	uv
+# 人家	uw
+# 人類	ux
+# 全部	uy
+# 情況	uz
+# 各級	va
+# 猶豫	vb
+# 比如	vc
+# 逃避	vd
+# 愛戴	ve
+# 冬天	vf
+# 受到	vg
+# 爭取	vh
+# 猜想	vi
+# 比較	vj
+# 貿易	vk
+# 針對	vl
+# 犯罪	vm
+# 各國	vn
+# 食品	vo
+# 食物	vp
+# 印象	vq
+# 各種	vr
+# 銀行	vs
+# 各位	vt
+# 愛情	vu
+# 狠狠	vv
+# 比賽	vw
+# 飲料	vx
+# 留言	vy
+# 爲準	vz
+# 主編	wa
+# 實際	wb
+# 良好	wc
+# 安慰	wd
+# 實現	we
+# 完成	wf
+# 密碼	wg
+# 實在	wh
+# 完整	wi
+# 廣場	wj
+# # 容易	wk
+# 衹是	wk
+# 初步	wl
+# 室內	wm
+# 寶貝	wn
+# 實踐	wo
+# 客氣	wp
+# 主角	wq
+# 客戶	wr
+# 應用	ws
+# 宣傳	wt
+# 社會	wu
+# 瘋狂	wv
+# 客廳	ww
+# 定義	wx
+# 官方	wy
+# 廣泛	wz
+# 曾經	xa
+# 義務	xb
+# 美好	xc
+# 普通	xd
+# 煎熬	xe
+# 前提	xf
+# 精確	xg
+# 尊敬	xh
+# 資格	xi
+# 首都	xj
+# 背景	xk
+# 並非	xl
+# 判罰	xm
+# 並且	xn
+# 道路	xo
+# 首先	xp
+# 前夕	xq
+# 勞動	xr
+# 前往	xs
+# 類似	xt
+# 道人	xu
+# 資金	xv
+# 精神	xw
+# 資料	xx
+# 北京	xy
+# 資源	xz
+# 放出	ya
+# 立即	yb
+# 音響	yc
+# 交通	yd
+# 文靜	ye
+# 方式	yf
+# 方面	yg
+# 文藝	yh
+# 這樣	yi
+# 市場	yj
+# 就是	yk
+# 這些	yl
+# 註冊	ym
+# 離開	yn
+# 產品	yo
+# 計算	yp
+# 許多	yq
+# 這種	yr
+# 竟然	ys
+# 部分	yt
+# 敵人	yu
+# 競爭	yv
+# 這麼	yw
+# 意義	yx
+# 立刻	yy
+# 方法	yz
+# 涉及	za
+# 扇子	zb
+# 減少	zc
+# 消費	zd
+# 測驗	ze
+# 瀏覽	zf
+# 之一	zg
+# 沒有	zh
+# 清楚	zi
+# 永遠	zj
+# 深思	zk
+# 演戲	zl
+# 沉默	zm
+# 之間	zn
+# 滿足	zo
+# 決策	zp
+# 海外	zq
+# 活動	zr
+# 之後	zs
+# 盜版	zt
+# 深情	zu
+# 深入	zv
+# 決定	zw
+# 之前	zx
+# 注意	zy
+# 沉沒	zz
 
 
 繼	aaa
@@ -1556,7 +1556,6 @@ encoder:
 縉	ahx
 綁	aib
 紂	aic
-綝	aii
 繮	aik
 練	ain
 綀	aio
@@ -1801,7 +1800,6 @@ encoder:
 陘	bgc
 陑	bge
 陚	bgf
-阮	bgg
 陌	bgk
 阷	bgl
 陙	bgn
@@ -2300,7 +2298,6 @@ encoder:
 屩	dsm
 屨	dso
 恿	dsr
-弸	dss
 甬	dsy
 鄪	dtb
 艴	dtd
@@ -2340,7 +2337,6 @@ encoder:
 酸	eav
 馺	eaw
 騄	eba
-騝	ebb
 駸	ebd
 馳	ebe
 肆	ebf
@@ -2363,7 +2359,6 @@ encoder:
 镼	eda
 驏	edb
 翅	edc
-瑕	edd
 珉	edf
 頍	edg
 配	edj
@@ -2398,7 +2393,6 @@ encoder:
 翲	efc
 馱	efd
 琦	efe
-醆	eff
 顠	efg
 戴	efh
 栽	efi
@@ -2684,7 +2678,6 @@ encoder:
 酼	eyv
 玟	eyw
 騂	eyx
-騯	eyy
 騸	ezc
 辻	ezd
 騨	eze
@@ -2756,7 +2749,6 @@ encoder:
 抎	fea
 邼	feb
 套	fec
-弍	fee
 捕	fef
 奔	feh
 搏	fei
@@ -2793,7 +2785,6 @@ encoder:
 捷	fgb
 威	fgc
 捂	fgd
-顑	fgg
 拝	fgi
 捱	fgj
 刳	fgl
@@ -3082,7 +3073,6 @@ encoder:
 磖	gcu
 耍	gcv
 豝	gdb
-磉	gdd
 碾	gdh
 碿	gdn
 吾	gdo
@@ -3283,7 +3273,6 @@ encoder:
 豵	gsl
 豞	gso
 戞	gsq
-硼	gss
 磫	gsu
 脣	gsv
 甭	gsy
@@ -3477,7 +3466,6 @@ encoder:
 芣	hgb
 莖	hgc
 荋	hge
-苤	hgg
 芋	hgi
 黃	hgk
 薤	hgl
@@ -3530,7 +3518,6 @@ encoder:
 芙	hjf
 苦	hjg
 莽	hjh
-鞋	hjj
 蕾	hjk
 藚	hjm
 薔	hjn
@@ -4471,9 +4458,9 @@ encoder:
 墠	jok
 鼛	jol
 霣	jon
-露	joo
 鼙	jop
 毄	joq
+遠	jor
 甏	jos
 軹	jot
 靈	jou
@@ -4487,6 +4474,7 @@ encoder:
 埏	jpl
 趲	jpn
 塩	jpo
+故	jpp
 輹	jpv
 軼	jpw
 垀	jpx
@@ -4715,7 +4703,6 @@ encoder:
 昧	kiw
 朄	kix
 曇	kje
-曉	kjj
 暑	kjk
 盢	kjm
 曀	kjo
@@ -5758,6 +5745,7 @@ encoder:
 唧	oba
 踺	obb
 吼	obc
+啊	obe
 哪	obf
 哏	obg
 噉	obh
@@ -5925,7 +5913,6 @@ encoder:
 噱	olg
 嚉	olj
 踔	olk
-咔	oll
 踄	oln
 跕	olo
 嘴	olq
@@ -6199,7 +6186,6 @@ encoder:
 迕	pez
 矩	pfd
 筐	pfe
-鵝	pff
 拜	pfg
 箝	pfh
 榘	pfi
@@ -6556,7 +6542,6 @@ encoder:
 鄆	qjb
 皸	qjd
 鮕	qjg
-鮭	qjj
 魷	qjo
 鰗	qjs
 鯪	qjt
@@ -6646,7 +6631,6 @@ encoder:
 鮈	qso
 蟹	qsp
 觚	qsr
-觸	qss
 觽	qst
 鵤	qsu
 魡	qsw
@@ -6860,7 +6844,6 @@ encoder:
 舑	roj
 舯	rok
 刮	rol
-喬	roo
 憩	ror
 舓	ros
 鴰	rou
@@ -6901,7 +6884,6 @@ encoder:
 秳	rro
 秘	rrp
 秊	rrq
-毳	rrr
 秇	rrw
 邌	rsa
 瓟	rsd
@@ -6981,7 +6963,6 @@ encoder:
 穧	ryt
 舫	ryu
 艈	ryv
-艕	ryy
 舮	rzh
 艑	rzm
 皺	saa
@@ -7449,7 +7430,7 @@ encoder:
 軆	tmx
 僴	tnk
 側	tnl
-倘	tnm
+們	tnm
 償	tno
 俏	tns
 俱	tnt
@@ -7720,7 +7701,6 @@ encoder:
 怯	uja
 怙	ujg
 恃	uji
-憢	ujj
 懎	ujn
 忧	ujo
 慚	ujr
@@ -7981,7 +7961,6 @@ encoder:
 銢	vea
 餑	veb
 釘	ved
-鎶	vee
 鋪	vef
 釬	veg
 鐼	veh
@@ -8061,7 +8040,6 @@ encoder:
 鍥	vid
 夆	vif
 釭	vig
-鏏	vii
 錬	vik
 銇	vil
 獺	vin
@@ -8549,7 +8527,6 @@ encoder:
 瘧	wlg
 襨	wli
 窧	wlk
-劘	wll
 廬	wlm
 禎	wln
 裭	wlq
@@ -9163,7 +9140,6 @@ encoder:
 諏	yhd
 誀	yhe
 韺	yhf
-諾	yhh
 諜	yhi
 謨	yhk
 讙	yho
@@ -9515,7 +9491,6 @@ encoder:
 滆	zgx
 湛	zhc
 洱	zhe
-灄	zhh
 渫	zhi
 灘	zhj
 漠	zhk
@@ -9805,79 +9780,68 @@ encoder:
 
 # 置換碼
 
-发	afa
-厶	aig
-马	amy
-幺	aya
-糸	ave
-飛	bfb
-艮	bgo
-予	byo
-巛	ccs
-习	ciw
-尸	dvb
-巳	dsz
-髟	ebc
-丁	edo
-甫	efj
-馬	emu
-酉	eye
-牙	fyc
-车	fcub
-臣	fed
-戈	fgr
-弋	figi
-戊	fwc
-厂	gcic
-辰	gnl
-兀	gwq
-歹	gdu
-豕	gsr
-革	hgj
-耳	her
-丌	hjkv
-瓦	hwc
-耒	ilx
-犬	jqqc
-尤	jor
-爾	jen
-电	kdos
-甲	kji
-申	ksv
-禺	kyc
-虫	lviz
-攴	lpf
-鹵	llbs
-皿	mmn
-貝	nbg
-〇	olt
-黽	oms
-气	pqq
-缶	pfn
-长	pcp
-鱼	qyoc
-殳	qsd
-几	qjc
-夭	ryq
-壬	rrj
-爪	rze
-舟	roeq
-彳	sre
-乌	swe
-鸟	sno
-鼻	tbs
-隹	twz
-乂	tivw
-川	tcw
-片	tpl
-鬼	ugx
-臼	ujq
-烏	uwb
-僉	uqd
-儿	vezq
-匕	vis
-广	wgs
-鹿	wlo
-亥	yhm
-户	zhvr
-门	zmz
+厶	aii
+糸	avv
+幺	ayy
+飛	bff
+艮	bgg
+予	byy
+巳	dss
+尸	dvv
+髟	ebb
+丁	edd
+甫	eff
+馬	emm
+酉	eyy
+臣	fee
+戈	fgg
+弋	fii
+戊	fww
+牙	fyy
+厂	gcc
+歹	gdd
+辰	gnn
+豕	gss
+兀	gww
+耳	hee
+革	hgg
+丌	hjj
+瓦	hww
+耒	ill
+爾	jee
+尤	joo
+犬	jqq
+甲	kjj
+申	ksss
+禺	kyy
+鹵	llll
+攴	lpp
+皿	mmm
+貝	nbb
+〇	oll
+黽	omm
+长	pcc
+缶	pff
+几	qjj
+殳	qss
+鱼	qyy
+壬	rrr
+夭	ryy
+爪	rzz
+舟	roo
+彳	srrr
+鼻	tbb
+川	tcc
+乂	tiii
+片	tpp
+隹	tww
+鬼	uggg
+臼	ujj
+僉	uqq
+烏	uww
+儿	vee
+匕	vii
+鹿	wll
+亥	yhh
+户	zhh
+门	zmm
